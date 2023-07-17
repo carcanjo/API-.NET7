@@ -1,0 +1,47 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:10968",
+      "sslPort": 44343
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5165",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7167;http://localhost:5165",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SECRET_JWT": "fsdjfposdjfpsdojgposdfjgpdfjg2545465f4sdf"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SECRET_JWT": "fsdjfposdjfpsdojgposdfjgpdfjg2545465f4sdf",
+        "BASE_URL": "",
+        "CAMINHO_LOG": "",
+        "CONNECTION_STRING": "Data Source=ARCANJO-PC\\SQLEXPRESS;Initial Catalog=DB_SeuTempo;uid=ArcanjoAdmin;pwd=69451916;MultipleActiveResultSets=true"
+
+      }
+    }
+  }
+}
